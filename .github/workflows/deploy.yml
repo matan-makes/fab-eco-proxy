@@ -28,10 +28,10 @@ jobs:
         run: yarn install
 
       - name: Build & Deploy
-        run: yarn deploy
+        run: yarn build
 
-#      - name: Deploy
-#        uses: JamesIves/github-pages-deploy-action@v4
-#        with:
-#          folder: build
-#          branch: gh-pages
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
+          branch: gh-pages
