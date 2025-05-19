@@ -1,3 +1,6 @@
+I have taken over this project and am treating it as abandonware for now. The packages will update so people can use the most up to date data.
+
+Here is my bsky: https://bsky.app/profile/sadtitled.bsky.social
 # FAB Eco Proxy
 
 This project creates printable ink/toner saving proxies. This is for everyone that wants to proxy cards for testing purpose or is waiting for theri cards to arrive in the mail.

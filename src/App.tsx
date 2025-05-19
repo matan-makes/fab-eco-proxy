@@ -27,7 +27,7 @@ import HelpModal from "./components/HelpModal";
 import SearchModal from "./components/SearchModal";
 import * as Icon from "react-bootstrap-icons";
 import LandingCards from "./components/LandingCards";
-import Kofi from "./images/kofi.png";
+// import Kofi from "./images/kofi.png";
 
 function App() {
   const [cardsToPrint, setCardsToPrint] = useState<EcoProxyCard[]>(() =>
@@ -110,17 +110,7 @@ function App() {
                 </Nav>
                 <Nav className="d-flex">
                   <Navbar.Text className="justify-content-end">
-                    <a
-                      href="https://ko-fi.com/Q5Q0GUWTY"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <img
-                        style={{ border: 0, height: 25 }}
-                        src={Kofi}
-                        alt="Buy Me a Coffee at ko-fi.com"
-                      />
-                    </a>
+                    { /**  buy me a coffee */ }
                   </Navbar.Text>
                 </Nav>
               </Navbar.Collapse>
