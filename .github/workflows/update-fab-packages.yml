@@ -1,0 +1,49 @@
+name: Update FAB Dependencies
+
+on:
+  schedule:
+    # Runs at 00:00 on Sunday
+    - cron: '0 0 * * 0'
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  update-dependencies:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'yarn'
+
+      - name: Update FAB packages
+        id: update
+        run: |
+          # Update packages
+          yarn upgrade @flesh-and-blood/cards@latest @flesh-and-blood/types@latest
+          
+          # Check if there are any changes
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.update.outputs.changes == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: 'chore: update FAB dependencies'
+          title: 'chore: update FAB dependencies'
+          body: |
+            Automated update of FAB dependencies:
+            - @flesh-and-blood/cards
+            - @flesh-and-blood/types
+            
+            Please review the changes and merge if appropriate.
+          branch: update-fab-deps
+          delete-branch: true
+          base: main
