@@ -242,7 +242,7 @@ function App() {
                 </li>
                 <li>
                   <a href="https://github.com/fabrary/fab-cards">FaBrary</a> for
-                  the awsome typescript fab-cards library .
+                  the awesome typescript fab-cards library .
                 </li>
                 <li>
                   <a href="https://github.com/cgilling/fab-proxy">cgilling</a>{" "}
@@ -251,16 +251,20 @@ function App() {
               </ul>
             </Col>
             <Col md="6">
-              <p>
+              {/**(<p>
                 If you liked this project (which is totally free), you can{" "}
                 <a
-                  href="https://ko-fi.com/Q5Q0GUWTY"
-                  target="_blank"
-                  rel="noreferrer"
+                    href="https://ko-fi.com/Q5Q0GUWTY"
+                    target="_blank"
+                    rel="noreferrer"
                 >
                   buy me a coffee
                 </a>
-              </p>
+              </p>)*/}
+              Note: this site was taken over so that folks could use it to make proxies of cards in newer sets as the old proxy site is abandoned at this point. I did not make any changes from the original at this point.
+              <div>
+                <a href="https://bsky.app/profile/sadtitled.bsky.social" target="_blank">Here is my bsky if you wanna be buds!</a>
+              </div>
             </Col>
           </Row>
           <Row className="border-top py-2">
