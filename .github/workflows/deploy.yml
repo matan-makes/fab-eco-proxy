@@ -27,11 +27,14 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
-      - name: Build & Deploy
+      - name: Build
         run: yarn build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: build
-          branch: gh-pages
+        run: yarn deploy
+
+#      - name: Deploy
+#        uses: JamesIves/github-pages-deploy-action@v4
+#        with:
+#          folder: build
+#          branch: gh-pages
