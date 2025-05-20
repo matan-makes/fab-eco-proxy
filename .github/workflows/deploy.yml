@@ -30,11 +30,11 @@ jobs:
       - name: Build
         run: yarn build
 
-      - name: Deploy
-        run: yarn deploy
-
 #      - name: Deploy
-#        uses: JamesIves/github-pages-deploy-action@v4
-#        with:
-#          folder: build
-#          branch: gh-pages
+#        run: yarn deploy
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
+          branch: gh-pages
