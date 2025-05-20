@@ -251,7 +251,7 @@ function App() {
               </ul>
             </Col>
             <Col md="6">
-              Note: this site was taken over so that folks could use it to make proxies of cards in newer sets as the old proxy site is abandoned at this point. I did not make any changes from the original at this point.
+              Note: this site was taken over so that folks could use it to make proxies of cards in newer sets as the old proxy site is abandoned at this point. I did not make any changes from the original at this time.
               <div>
                 <a href="https://bsky.app/profile/sadtitled.bsky.social" target="_blank" rel="noreferrer">Here is my bsky if you wanna be buds!</a>
               </div>
