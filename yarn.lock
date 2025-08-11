@@ -1205,17 +1205,17 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@flesh-and-blood/cards@^3.6.91":
-  version "3.6.91"
-  resolved "https://registry.yarnpkg.com/@flesh-and-blood/cards/-/cards-3.6.91.tgz#3482074b5a23cfd76ef0ac660cf142d113ae8c9a"
-  integrity sha512-lJVxxyASiRtsNrYSIzuM3XycWDssnvJomNAJyb1IzskOBC9+iuVS2SrdQxd9jdQK18A12L1pf8SZSAKsbXMx7g==
+"@flesh-and-blood/cards@^3.6.116":
+  version "3.6.116"
+  resolved "https://registry.yarnpkg.com/@flesh-and-blood/cards/-/cards-3.6.116.tgz#3c82a12a13dc5d3a586621a4b39c9beb27b03a58"
+  integrity sha512-uiizigcymSU5mzjsZ73RVSl4seCKONcl0uMkPojylvD8esqV+tUP9OL1jVEOVgpmeyT1TOW6B7Rgns5jhjGxcQ==
   dependencies:
-    "@flesh-and-blood/types" "^3.6.89"
+    "@flesh-and-blood/types" "^3.6.113"
 
-"@flesh-and-blood/types@^3.6.89":
-  version "3.6.89"
-  resolved "https://registry.yarnpkg.com/@flesh-and-blood/types/-/types-3.6.89.tgz#b2b8c43862594e77d8ab0afa9ed250e0c6d7ccef"
-  integrity sha512-izN3m4gFMtN3zECsXINfgtjM7dESoXG/YcHvKZOxNvzczaFIbCE24yHZydKx5ojPjNsvJ8j/3uGCBfTyhkjeeA==
+"@flesh-and-blood/types@^3.6.113":
+  version "3.6.113"
+  resolved "https://registry.yarnpkg.com/@flesh-and-blood/types/-/types-3.6.113.tgz#3b18b3fbc332267363c91c32f45c4b91474ab240"
+  integrity sha512-yllGE4AzpMW/hFrG2ox8FkYILoJKfMpnwhEG+oVthY0K03jqlsw3pEcWbsJIGSIRSE+XRv72DxXujNyTL8a18w==
 
 "@humanwhocodes/config-array@^0.11.6":
   version "0.11.7"
