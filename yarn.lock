@@ -1205,10 +1205,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@flesh-and-blood/cards@^3.8.25":
-  version "3.8.25"
-  resolved "https://registry.yarnpkg.com/@flesh-and-blood/cards/-/cards-3.8.25.tgz#434f89f4ebeb5e6815b55df7b16f879fa9e3a445"
-  integrity sha512-UmuCq/2v34+fek5rGNfI4awVOYs/0inzb0VetW/tUIFdlI/KzGSMwqlh0fwDQEeQJIekyvG15JfcXaak2b+KAw==
+"@flesh-and-blood/cards@^3.9.2":
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/@flesh-and-blood/cards/-/cards-3.9.2.tgz#319089ef3946841041b082ae0b64caa594de51fa"
+  integrity sha512-q5AZPJLqoaif6tuZwXoMcpctk5TodsM1o5HyN620sZwVhM68kz3spO9hrUAkIF43idjHgyN360xMrMoJRj5dGw==
   dependencies:
     "@flesh-and-blood/types" "^3.8.24"
 
